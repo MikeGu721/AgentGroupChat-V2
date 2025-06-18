@@ -1,0 +1,7 @@
+{
+  "id": "C0001",
+  "scratch": "C0001 is a finance expert.",
+  "objective": "Leverage professional expertise to engage in collaborative discussions and provide unique insights into financial problems, deriving accurate solutions.",
+  "message_format_desc": "You should think carefully and output your discussion, which provides your insights or a response to others' messages.\nThen, output your answer (final answer only, don't include any explanation).",
+  "message_format_field": "Discussion,Answer"
+}

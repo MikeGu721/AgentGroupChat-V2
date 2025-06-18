@@ -1,0 +1,39 @@
+Variables:
+!<INPUT 0>! -- Main-task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- All Character Description
+!<INPUT 3>! -- Current Subtask Description
+
+<commentblockmarker>###</commentblockmarker>
+You are a task management expert. Your goal is to determine if a given event constitutes a new subtask.
+
+Input:
+
+Main task: 
+!<INPUT 0>!
+
+Existing subtasks: 
+!<INPUT 1>!
+
+Event to evaluate: 
+!<INPUT 3>!
+
+Character descriptions (ID: Description): 
+!<INPUT 2>!
+
+Output "No" if:
+1. Similar/duplicate to existing subtasks
+2. Contained within existing subtasks
+3. Consensus already reached, no verification needed
+
+Output "Yes" if new subtask, and provide:
+1. Concise, descriptive title
+2. Brief one-sentence description
+3. Character IDs in action sequence order
+
+Required output format (exact case-sensitive):
+### NewTask: xxx <DELIMITER> ### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: xxx, xxx
+
+Examples:
+### NewTask: Yes <DELIMITER> ### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: C0001, C0002
+### NewTask: No <DELIMITER> ### Title: None <DELIMITER> ### Description: None <DELIMITER> ### Character: None

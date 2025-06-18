@@ -1,0 +1,22 @@
+Variables:
+!<INPUT 0>! -- Problem
+!<INPUT 1>! -- Main Group Messages
+
+<commentblockmarker>###</commentblockmarker>
+Given a python programming problem and its discussion, identify the correct answer in the discussion and output it with Markdown format.
+
+Write ONLY the function code without any explanations. Do not include any test cases or example usage.
+The code should handle the input format shown in the example usage.
+
+Input:
+!<INPUT 0>!
+
+Discussion:
+!<INPUT 1>!
+
+Your output should follow this format:
+```python
+[python code]
+```
+
+Your output:

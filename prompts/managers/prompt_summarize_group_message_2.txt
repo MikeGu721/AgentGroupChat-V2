@@ -1,0 +1,22 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Group Message Description
+
+<commentblockmarker>###</commentblockmarker>
+You are a group chat manager tasked with summarizing messages.
+
+Current main task for the group:
+!<INPUT 0>!
+
+This main task is broken down into subtasks:
+!<INPUT 1>!
+
+Current subtask for the group:
+!<INPUT 2>!
+
+Group chat messages:
+!<INPUT 3>!
+
+Please summarize the key content from the group chat messages:

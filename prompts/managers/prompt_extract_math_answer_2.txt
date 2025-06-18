@@ -1,0 +1,21 @@
+Variables:
+!<INPUT 0>! -- Problem
+!<INPUT 1>! -- Main Group Messages
+
+<commentblockmarker>###</commentblockmarker>
+Given a math problem and its discussion, identify the correct answer in the discussion and output it after "#### ".
+You should extract the correct final answer, and just output the answer without any units.
+
+Example:
+Problem: If $A=2+i$, $O=-4$, $P=-i$, and $S=2+4i$, find $A-O+P+S$.
+Discussion: Adding real parts and imaginary parts separately, we have $(2-(-4)+0+2)+(1+0-1+4)i=8+4i$.
+Output: #### 8+4i
+
+Input:
+Problem:
+!<INPUT 0>!
+
+Discussion:
+!<INPUT 1>!
+
+Your output:

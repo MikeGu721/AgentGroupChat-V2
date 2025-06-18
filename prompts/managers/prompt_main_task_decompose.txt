@@ -1,0 +1,22 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Character Description
+
+<commentblockmarker>###</commentblockmarker>
+你是一位经验丰富的任务管理专家。
+你的目标是分析主任务和所有角色的身份，考虑是否要将主任务分解为多个子任务。若不需要分解，则识别完成任务需要的所有角色。
+
+以下是主任务描述：
+!<INPUT 0>!
+
+以下是所有角色描述 (ID: 描述)：
+!<INPUT 1>!
+
+对于每个任务，请提供：
+1. 简洁且具有描述性的标题。
+2. 一句简短的描述。
+3. 完成该任务需要执行动作的所有角色ID（按行动顺序排列）。
+
+请确保你的回答遵循以下格式，不要输出任何其他内容，请确保分隔符的大小写与要求一致：
+### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: C0001, C0002
+### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: C0003

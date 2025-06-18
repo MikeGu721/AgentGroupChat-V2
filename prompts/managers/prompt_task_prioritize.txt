@@ -1,0 +1,20 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+
+<commentblockmarker>###</commentblockmarker>
+你是一位经验丰富的任务管理专家。
+给定一个主任务和一组子任务，你的目标是根据子任务的依赖顺序对子任务的优先级进行排序。
+你需要按优先级降序列出子任务的索引，索引之间用`,`分隔。
+
+以下是主任务描述：
+!<INPUT 0>!
+
+以下是所有子任务的描述：
+!<INPUT 1>!
+
+请确保你的回答遵循以下格式，不要输出任何其他内容：
+### Priorities: x, x
+
+这是一个示例：
+### Priorities: 1, 2, 3

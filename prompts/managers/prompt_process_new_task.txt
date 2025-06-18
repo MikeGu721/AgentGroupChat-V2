@@ -1,0 +1,41 @@
+Variables:
+!<INPUT 0>! -- Main-task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- All Character Description
+!<INPUT 3>! -- Current Subtask Description
+
+<commentblockmarker>###</commentblockmarker>
+你是一位经验丰富的任务管理专家。
+你的目标是判断给定事件是否是新出现的子任务。
+
+以下是主任务描述：
+!<INPUT 0>!
+
+以下是现有子任务描述：
+!<INPUT 1>!
+
+需要判断的事件：
+!<INPUT 3>!
+
+以下是角色描述，格式为 (ID: 描述)：
+!<INPUT 2>!
+
+注意：子任务不能与现有子任务重复或重叠！不能与现有子任务太相似！
+如果是新的子任务，则输出Yes，否则输出No。
+
+你需要遵循以下原则：
+1. 以下情况不是新子任务，需要输出No：
+    (1) 与现有子任务重复或重叠；
+    (2) 被现有子任务包含。
+    (3) 结果已经达成一致，不用再继续验证。
+2. 如果是新的子任务，需要输出Yes，且需要进一步提供：
+    (1) 简洁且具有描述性的标题;
+    (2) 一句简短的描述;
+    (3) 完成该任务需要执行动作的所有角色ID（按行动顺序排列）。
+
+请确保你的回答遵循以下格式，不要输出任何其他内容，请确保分隔符的大小写与要求一致：
+### NewTask: xxx <DELIMITER> ### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: xxx, xxx
+
+这是两个示例：
+### NewTask: Yes <DELIMITER> ### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: C0001, C0002
+### NewTask: No <DELIMITER> ### Title: None <DELIMITER> ### Description: None <DELIMITER> ### Character: None

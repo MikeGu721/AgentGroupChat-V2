@@ -1,0 +1,132 @@
+Task: MATH,     Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 83.42
+Task: MATH,     Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 31.40
+Task: MATH,     Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 74.94
+Task: MATH,     Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 34.70
+Task: MATH,     Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 7.93
+Task: MATH,     Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 31.37
+Task: MATH,     Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 85.96
+Task: MATH,     Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 89.73
+Task: MATH,     Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 81.00
+Task: MATH,     Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 68.70
+Task: MATH,     Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 78.54
+Task: MATH,     Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 66.64
+Task: GSM8K,    Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 37.52
+Task: GSM8K,    Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 75.13
+Task: GSM8K,    Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 52.76
+Task: GSM8K,    Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 81.8
+Task: GSM8K,    Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 75.81
+Task: GSM8K,    Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 87.41
+Task: GSM8K,    Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 35.7
+Task: GSM8K,    Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 87.33
+Task: GSM8K,    Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 20.09
+Task: GSM8K,    Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 85.21
+Task: GSM8K,    Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 90.82
+Task: GSM8K,    Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 91.5
+Task: MBPP,     Model: qwen2.5-72b,     Method: Naive,  Metric: pass@1,         Result: 54.46
+Task: MBPP,     Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: pass@1,         Result: 51.3
+Task: MBPP,     Model: qwen2.5-72b,     Method: ReAct,  Metric: pass@1,         Result: 57.02
+Task: MBPP,     Model: qwen2.5-72b,     Method: AutoGen,        Metric: pass@1,         Result: 40.6
+Task: MBPP,     Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: pass@1,         Result: 55.28
+Task: MBPP,     Model: qwen2.5-72b,     Method: AgentGroupChat,      Metric: pass@1,         Result: 60.34
+Task: MBPP,     Model: llama3.1-70b,    Method: Naive,  Metric: pass@1,         Result: 51.8
+Task: MBPP,     Model: llama3.1-70b,    Method: Naive-CoT,      Metric: pass@1,         Result: 53.04
+Task: MBPP,     Model: llama3.1-70b,    Method: ReAct,  Metric: pass@1,         Result: 55.88
+Task: MBPP,     Model: llama3.1-70b,    Method: AutoGen,        Metric: pass@1,         Result: 40.26
+Task: MBPP,     Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: pass@1,         Result: 54.68
+Task: MBPP,     Model: llama3.1-70b,    Method: AgentGroupChat,      Metric: pass@1,         Result: 58.84
+Task: HumanEval,        Model: qwen2.5-72b,     Method: Naive,  Metric: pass@1,         Result: 67.07
+Task: HumanEval,        Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: pass@1,         Result: 62.86
+Task: HumanEval,        Model: qwen2.5-72b,     Method: ReAct,  Metric: pass@1,         Result: 75.54
+Task: HumanEval,        Model: qwen2.5-72b,     Method: AutoGen,        Metric: pass@1,         Result: 66.46
+Task: HumanEval,        Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: pass@1,         Result: 75.54
+Task: HumanEval,        Model: qwen2.5-72b,     Method: AgentGroupChat,      Metric: pass@1,         Result: 76.46
+Task: HumanEval,        Model: llama3.1-70b,    Method: Naive,  Metric: pass@1,         Result: 68.9
+Task: HumanEval,        Model: llama3.1-70b,    Method: Naive-CoT,      Metric: pass@1,         Result: 71.58
+Task: HumanEval,        Model: llama3.1-70b,    Method: ReAct,  Metric: pass@1,         Result: 78.53
+Task: HumanEval,        Model: llama3.1-70b,    Method: AutoGen,        Metric: pass@1,         Result: 57.5
+Task: HumanEval,        Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: pass@1,         Result: 75.67
+Task: HumanEval,        Model: llama3.1-70b,    Method: AgentGroupChat,      Metric: pass@1,         Result: 79.2
+Task: StrucText-Eval,       Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 56.36594411747617
+Task: StrucText-Eval,       Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 72.77852603373532
+Task: StrucText-Eval,       Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 69.21454691336119
+Task: StrucText-Eval,       Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 5.6396819080387575
+Task: StrucText-Eval,       Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 80.29044252164458
+Task: StrucText-Eval,       Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 76.2592146337597
+Task: StrucText-Eval,       Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 66.14646466030419
+Task: StrucText-Eval,       Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 66.12501796510459
+Task: StrucText-Eval,       Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 63.08918220081959
+Task: StrucText-Eval,       Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 61.41036634708469
+Task: StrucText-Eval,       Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 82.56383223325042
+Task: StrucText-Eval,       Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 85.27196402235482
+Task: WinoGrande,       Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 73.1070496083551
+Task: WinoGrande,       Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 84.28927680798004
+Task: WinoGrande,       Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 85.56701030927834
+Task: WinoGrande,       Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 85.11749347258485
+Task: WinoGrande,       Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 82.55208333333333
+Task: WinoGrande,       Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 82.38341968911917
+Task: WinoGrande,       Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 78.38541666666667
+Task: WinoGrande,       Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 85.49222797927462
+Task: WinoGrande,       Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 84.97409326424871
+Task: WinoGrande,       Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 82.38341968911917
+Task: WinoGrande,       Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 80.31088082901555
+Task: WinoGrande,       Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 82.6923076923077
+Task: AIME,     Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 20.0
+Task: AIME,     Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 16.666666666666668
+Task: AIME,     Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 30.434782608695652
+Task: AIME,     Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 20.0
+Task: AIME,     Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 0.0
+Task: AIME,     Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 10.0
+Task: AIME,     Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 16.666666666666668
+Task: AIME,     Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 10.0
+Task: AIME,     Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 21.428571428571427
+Task: AIME,     Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 16.666666666666668
+Task: AIME,     Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 3.3333333333333335
+Task: AIME,     Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 0.0
+Task: JEC-QA,         Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 30.075187969924812
+Task: JEC-QA,         Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 31.57894736842105
+Task: JEC-QA,         Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 32.932330827067666
+Task: JEC-QA,         Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 22.706766917293233
+Task: JEC-QA,         Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 31.57894736842105
+Task: JEC-QA,         Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 30.622837370242216
+Task: JEC-QA,         Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 40.6015037593985
+Task: JEC-QA,         Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 42.556390977443606
+Task: JEC-QA,         Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 38.796992481203006
+Task: JEC-QA,         Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 29.924812030075188
+Task: JEC-QA,         Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 38.49624060150376
+Task: JEC-QA,         Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 41.203007518796994
+Task: FinQual,  Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 63.76195536663124
+Task: FinQual,  Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 71.83098591549296
+Task: FinQual,  Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 73.60406091370558
+Task: FinQual,  Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 43.5
+Task: FinQual,  Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 78.28282828282828
+Task: FinQual,  Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 77.09497206703911
+Task: FinQual,  Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 79.15831663326654
+Task: FinQual,  Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 76.0
+Task: FinQual,  Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 79.2
+Task: FinQual,  Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 67.1
+Task: FinQual,  Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 80.2
+Task: FinQual,  Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 77.11138310893513
+Task: MedmcQA,  Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 56.79012345679013
+Task: MedmcQA,  Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 73.9
+Task: MedmcQA,  Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 89.96666666666667
+Task: MedmcQA,  Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 83.1
+Task: MedmcQA,  Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 90.2
+Task: MedmcQA,  Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 81.81818181818181
+Task: MedmcQA,  Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 68.6
+Task: MedmcQA,  Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 89.3
+Task: MedmcQA,  Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 76.4
+Task: MedmcQA,  Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 70.7
+Task: MedmcQA,  Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 75.9
+Task: MedmcQA,  Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 79.0
+Task: HellaSwag,        Model: llama3.1-70b,    Method: AutoGen,        Metric: Accuracy,       Result: 61.116552399608224
+Task: HellaSwag,        Model: llama3.1-70b,    Method: Naive-CoT,      Metric: Accuracy,       Result: 67.67290790982041
+Task: HellaSwag,        Model: llama3.1-70b,    Method: AgentGroupChat,         Metric: Accuracy,       Result: 66.0
+Task: HellaSwag,        Model: llama3.1-70b,    Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 68.88379204892966
+Task: HellaSwag,        Model: llama3.1-70b,    Method: ReAct,  Metric: Accuracy,       Result: 67.7013045434098
+Task: HellaSwag,        Model: llama3.1-70b,    Method: Naive,  Metric: Accuracy,       Result: 70.11845624761177
+Task: HellaSwag,        Model: qwen2.5-72b,     Method: AutoGen,        Metric: Accuracy,       Result: 64.36363636363636
+Task: HellaSwag,        Model: qwen2.5-72b,     Method: Naive-CoT,      Metric: Accuracy,       Result: 72.33473442873519
+Task: HellaSwag,        Model: qwen2.5-72b,     Method: AgentGroupChat,         Metric: Accuracy,       Result: 70.30869212022746
+Task: HellaSwag,        Model: qwen2.5-72b,     Method: Multi-Agent Debate,     Metric: Accuracy,       Result: 72.52200535782626
+Task: HellaSwag,        Model: qwen2.5-72b,     Method: ReAct,  Metric: Accuracy,       Result: 71.55963302752293
+Task: HellaSwag,        Model: qwen2.5-72b,     Method: Naive,  Metric: Accuracy,       Result: 73.71035536874284

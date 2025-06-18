@@ -1,0 +1,26 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Character Description
+
+<commentblockmarker>###</commentblockmarker>
+You are a task management expert.
+Your job is to: Break down the main task into subtasks if needed (as less as possible).
+
+Input:
+
+Main task: 
+!<INPUT 0>!
+
+Characters (ID: Description): 
+!<INPUT 1>!
+
+For each task/subtask, provide:
+1. Clear, descriptive title
+2. One-line description
+3. All character IDs needed to complete the task (in action sequence), default all characters involved.
+
+Required output format (use exactly as shown):
+### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: C0001, C0002
+### Title: xxx <DELIMITER> ### Description: xxx <DELIMITER> ### Character: C0003
+
+Do not include any additional content. Maintain exact case sensitivity for delimiters.

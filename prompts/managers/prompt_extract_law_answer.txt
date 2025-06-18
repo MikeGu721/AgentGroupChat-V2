@@ -1,0 +1,21 @@
+Variables:
+!<INPUT 0>! -- Problem
+!<INPUT 1>! -- Main Group Messages
+
+<commentblockmarker>###</commentblockmarker>
+Given a legal problem and its discussion, identify the correct answer in the discussion and output it after "#### ".
+You should extract the correct final choices, and just output the answer without any units.
+
+Example:
+Problem: According to the Civil Code of the People's Republic of China, which of the following rights are classified as property rights? A. Ownership, B. Easement, C. Mortgage, D. Creditor's Right
+Discussion: Ownership (A) is a fundamental type of property right, which grants the right holder direct control and exclusive rights over a specific asset. Easement (B) is a type of usufructuary property right, allowing the right holder to use another's immovable property for the convenience or enhancement of their own property. Mortgage (C) is a type of security property right, enabling the creditor to have priority in compensation from a specific asset if the debtor fails to fulfill their obligations. Creditor's Right (D), on the other hand, is not a property right but rather a separate category of rights under civil law, which allows the right holder to request a specific action from the obligor. Therefore, the correct answers are A, B, and C.
+Output: #### ABC
+
+Input:
+Problem:
+!<INPUT 0>!
+
+Discussion:
+!<INPUT 1>!
+
+Your output:

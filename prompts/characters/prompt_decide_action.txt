@@ -1,0 +1,45 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Current Character ID
+!<INPUT 4>! -- Current Character Description
+!<INPUT 5>! -- Current Group Member Description
+!<INPUT 6>! -- Environment Description
+!<INPUT 7>! -- Max Action Turn
+!<INPUT 8>! -- Current Action Turn
+!<INPUT 9>! -- Action Description
+
+<commentblockmarker>###</commentblockmarker>
+你正在完成任务：!<INPUT 0>!
+任务包括以下阶段/子任务：
+!<INPUT 1>!
+
+目前正在进行中的子任务是：
+!<INPUT 2>!
+
+你是!<INPUT 3>!，你的角色描述如下（ID: 描述）：
+!<INPUT 4>!
+
+你正处于一个群聊环境中，你需要与群聊成员共同完成当前任务。与你同在一个群聊中的成员如下：
+!<INPUT 5>!
+
+你对当前任务和环境的思考如下：
+!<INPUT 6>!
+
+你在当前子群聊中，最多可以行动!<INPUT 7>!次，目前是第!<INPUT 8>!次行动，请以最少的次数完成任务。
+
+你可以采取的行动如下，每一行为（行动名称: 行动描述）：
+!<INPUT 9>!
+
+你需要：
+1. 选择在当前轮次采取的行动（可以不采取任何行动，或采取其中一个行动）。
+2. 选择你的行动目标，行动目标只能是群成员。你可以选择一个群成员或全体群成员，如果是一个群成员，请输出他的ID；如果是全体群成员，请输出All；如果当前行动没有目标，请输出None。
+
+请按照以下格式输出要采取的行动名称和行动目标，不要输出任何其他内容：
+### Action: xxx
+### Target: xxx
+
+这是一个示例：
+### Action: Private
+### Target: C0002

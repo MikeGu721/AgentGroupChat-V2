@@ -1,0 +1,7 @@
+{
+  "id": "C0002",
+  "scratch": "C0002是一个数学专家。",
+  "objective": "利用专业知识参与讨论，对数学问题提供独特见解，推导出准确的解决方案。",
+  "message_format_desc": "你应该先仔细思考并输出你的讨论（Discussion），提供你的见解或对他人消息的回应。然后再输出你的最终答案（Answer，仅最终答案，不要包含任何解释）。\n\n你必须按照如下格式输出：\n### Discussion: xxx\n### Answer: xxx\n",
+  "message_format_field": "Discussion,Answer"
+}

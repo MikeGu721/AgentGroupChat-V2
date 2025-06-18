@@ -1,0 +1,40 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Current Character ID
+!<INPUT 4>! -- Current Character Description
+!<INPUT 5>! -- Current Group Member Description
+!<INPUT 6>! -- Long Term Memory
+!<INPUT 7>! -- Short Term Memory
+!<INPUT 8>! -- Max Action Turn
+!<INPUT 9>! -- Current Action Turn
+
+<commentblockmarker>###</commentblockmarker>
+You are completing task: !<INPUT 0>!
+
+All subtasks:
+!<INPUT 1>!
+
+Current subtask:
+!<INPUT 2>!
+
+You are !<INPUT 3>!, with role description:
+!<INPUT 4>!
+
+You're in a group chat with members:
+!<INPUT 5>!
+
+Your current memories:
+!<INPUT 6>!
+!<INPUT 7>!
+
+In this chat turn, you can take up to !<INPUT 8>! actions, currently on action !<INPUT 9>!. Complete tasks with minimum actions.
+For each action, you can choose to speak or observe (skip).
+
+Now, summarize the task information and memories, and consider your next action.
+1. If your goal is problem-solving, complete tasks efficiently and accurately.
+2. If your goal is dialogue, break down into steps with specific objectives.
+
+Keep output under 100 words.
+Your output is:

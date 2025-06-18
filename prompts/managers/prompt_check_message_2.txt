@@ -1,0 +1,39 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Group Message Description
+
+<commentblockmarker>###</commentblockmarker>
+You are a task management expert. 
+Please analyze group chat messages to:
+1. Determine if current subtask is complete
+2. Identify any new subtasks
+
+Input:
+Main Task:
+!<INPUT 0>!
+
+List of existing subtasks:
+!<INPUT 1>!
+
+Current subtask:
+!<INPUT 2>!
+
+Group chat messages:
+!<INPUT 3>!
+
+Output requirements:
+1. Task completion: Output "Yes" if current subtask is complete, "No" if not
+2. New subtasks: Output "Yes <DELIMITER> {detailed description}" if new subtask found, "No <DELIMITER> None" if not
+    Note that:
+    1. New subtasks must not duplicate or closely resemble existing ones
+    2. If consensus is reached, no further verification needed
+
+Required output format (exact case-sensitive):
+### Completed: xxx
+### NewTask: xxx <DELIMITER> xxx
+
+Example:
+### Completed: Yes
+### NewTask: No <DELIMITER> None

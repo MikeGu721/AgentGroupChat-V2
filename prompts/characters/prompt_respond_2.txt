@@ -1,0 +1,37 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Current Character ID
+!<INPUT 4>! -- Current Character Description
+!<INPUT 5>! -- Sender ID
+!<INPUT 6>! -- Chat Name
+!<INPUT 7>! -- Sender Description
+!<INPUT 8>! -- Chat History
+!<INPUT 9>! -- Output Format
+
+<commentblockmarker>###</commentblockmarker>
+You are completing task: !<INPUT 0>!
+
+The task includes these subtasks:
+!<INPUT 1>!
+
+Current ongoing subtask:
+!<INPUT 2>!
+
+You're in a group chat environment working with multiple characters to complete the task.
+You are !<INPUT 3>!, with role description (ID: Description):
+!<INPUT 4>!
+
+Character !<INPUT 5>! has initiated !<INPUT 6>! to you. Their role description is:
+!<INPUT 7>!
+
+Your chat history:
+!<INPUT 8>!
+
+Decide if you want to respond. You can share your views on the current subtask, discuss their perspectives, or choose not to reply.
+
+if you choose to reply, output your message.
+!<INPUT 9>!
+
+If you choose not to reply, output only "None" without any other content.

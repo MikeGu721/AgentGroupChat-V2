@@ -1,0 +1,48 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Current Character ID
+!<INPUT 4>! -- Current Character Description
+!<INPUT 5>! -- Current Group Member Description
+!<INPUT 6>! -- Environment Description
+!<INPUT 7>! -- Max Action Turn
+!<INPUT 8>! -- Current Action Turn
+!<INPUT 9>! -- Action Description
+
+<commentblockmarker>###</commentblockmarker>
+You are completing the task: !<INPUT 0>!
+
+The task includes the following subtasks:
+!<INPUT 1>!
+
+Current ongoing subtask:
+!<INPUT 2>!
+
+You are !<INPUT 3>!, your role description is (ID: Description):
+!<INPUT 4>!
+
+You are in a group chat environment and need to complete the current task with other members.
+Your group chat members are:
+!<INPUT 5>!
+
+Your thoughts on the current task and environment:
+!<INPUT 6>!
+
+In this subtask group chat, you can take up to !<INPUT 7>! actions, currently on action !<INPUT 8>!. Complete the task in minimum actions.
+
+You have chosen to !<INPUT 9>!
+
+Now you need to output the action target.
+For target, you should output:
+    1. one group member ID for Private or Meeting
+    2. "All" or one group member ID for GroupChat
+    3. "None" for others
+
+Your output should follow this format:
+### Target: xxx
+
+Don't response anything else.
+
+Example:
+### Target: All

@@ -1,0 +1,34 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Group Message Description
+
+<commentblockmarker>###</commentblockmarker>
+你是一位经验丰富的任务管理专家。
+你的目标是分析群聊消息，判断当前子任务是否完成，以及是否出现新的子任务。
+
+目前正在进行的主任务是：
+!<INPUT 0>!
+
+主任务被分解为了以下子任务：
+!<INPUT 1>!
+
+当前正在进行的子任务是：
+!<INPUT 2>!
+
+群聊消息如下：
+!<INPUT 3>!
+
+请根据群聊消息判断当前子任务是否完成，如果已完成，请输出Yes，否则输出No。
+你还需要判断群聊消息中是否出现新的子任务（新子任务不能与现有子任务重复或重叠！不能与现有子任务太相似！）。
+如果出现，请输出Yes和新子任务的详细描述，中间用<DELIMITER>分隔；如果没有出现新的子任务，请输出No和None，中间用<DELIMITER>分隔。
+注意：如果结果已经达成一致，则不用再继续验证。
+
+请按如下格式输出，不要输出任何其他内容：
+### Completed: xxx
+### NewTask: xxx <DELIMITER> xxx
+
+这是一个例子：
+### Completed: Yes
+### NewTask: No <DELIMITER> None

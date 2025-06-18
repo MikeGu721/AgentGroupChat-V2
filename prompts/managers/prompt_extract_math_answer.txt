@@ -1,0 +1,20 @@
+Variables:
+!<INPUT 0>! -- Problem
+!<INPUT 1>! -- Main Group Messages
+
+<commentblockmarker>###</commentblockmarker>
+给定一道数学题，和关于该题的解法讨论，你需要识别出讨论中包含的题目的最终答案，并用\boxed{}标识答案，\boxed{}只能出现一次，需要包裹住答案，如\boxed{xxx}。
+不要对内容做任何分析或修正，只需标出答案即可。
+
+这是一个示例：
+题目：If $A=2+i$, $O=-4$, $P=-i$, and $S=2+4i$, find $A-O+P+S$.
+讨论：Adding real parts and imaginary parts separately, we have $(2-(-4)+0+2)+(1+0-1+4)i=8+4i$.
+输出：Adding real parts and imaginary parts separately, we have $(2-(-4)+0+2)+(1+0-1+4)i=\boxed{8+4i}$.
+
+题目：
+!<INPUT 0>!
+
+讨论：
+!<INPUT 1>!
+
+你的输出：

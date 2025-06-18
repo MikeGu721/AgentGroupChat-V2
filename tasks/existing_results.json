@@ -1,0 +1,237 @@
+{
+    "gsm8k": {
+      "qwen2.5-72b": {
+        "Naive": 37.52,
+        "Naive-CoT": 75.13,
+        "ReAct": 52.76,
+        "AutoGen": 81.80,
+        "Multi-Agent Debate": 75.81,
+        "AgentGroupChat": 87.41
+      },
+      "llama3.1-70b": {
+        "Naive": 35.70,
+        "Naive-CoT": 87.33,
+        "ReAct": 20.09,
+        "AutoGen": 85.21,
+        "Multi-Agent Debate": 90.82,
+        "AgentGroupChat": 91.50
+      }
+    },
+    "math_level1": {
+      "qwen2.5-72b": {
+        "Naive": 60.17,
+        "Naive-CoT": 85.84,
+        "ReAct": 53.10,
+        "AutoGen": 89.38,
+        "Multi-Agent Debate": 85.84,
+        "AgentGroupChat": 92.92
+      },
+      "llama3.1-70b": {
+        "Naive": 50.44,
+        "Naive-CoT": 91.15,
+        "ReAct": 28.32,
+        "AutoGen": 96.46,
+        "Multi-Agent Debate": 97.35,
+        "AgentGroupChat": 98.23
+      }
+    },
+    "math_level2": {
+      "qwen2.5-72b": {
+        "Naive": 49.41,
+        "Naive-CoT": 77.65,
+        "ReAct": 35.88,
+        "AutoGen": 85.29,
+        "Multi-Agent Debate": 79.41,
+        "AgentGroupChat": 90.00
+      },
+      "llama3.1-70b": {
+        "Naive": 44.11,
+        "Naive-CoT": 88.82,
+        "ReAct": 11.76,
+        "AutoGen": 92.94,
+        "Multi-Agent Debate": 92.94,
+        "AgentGroupChat": 94.12
+      }
+    },
+    "math_level3": {
+      "qwen2.5-72b": {
+        "Naive": 37.16,
+        "Naive-CoT": 75.22,
+        "ReAct": 36.73,
+        "AutoGen": 88.05,
+        "Multi-Agent Debate": 75.66,
+        "AgentGroupChat": 84.07
+      },
+      "llama3.1-70b": {
+        "Naive": 30.97,
+        "Naive-CoT": 87.17,
+        "ReAct": 7.52,
+        "AutoGen": 91.15,
+        "Multi-Agent Debate": 92.48,
+        "AgentGroupChat": 88.94
+      }
+    },
+    "math_level4": {
+      "qwen2.5-72b": {
+        "Naive": 26.49,
+        "Naive-CoT": 63.68,
+        "ReAct": 28.21,
+        "AutoGen": 71.79,
+        "Multi-Agent Debate": 66.24,
+        "AgentGroupChat": 71.79
+      },
+      "llama3.1-70b": {
+        "Naive": 28.20,
+        "Naive-CoT": 80.77,
+        "ReAct": 4.27,
+        "AutoGen": 82.48,
+        "Multi-Agent Debate": 85.90,
+        "AgentGroupChat": 81.20
+      }
+    },
+    "math_level5": {
+      "qwen2.5-72b": {
+        "Naive": 21.78,
+        "Naive-CoT": 48.25,
+        "ReAct": 19.46,
+        "AutoGen": 54.86,
+        "Multi-Agent Debate": 52.14,
+        "AgentGroupChat": 48.64
+      },
+      "llama3.1-70b": {
+        "Naive": 19.84,
+        "Naive-CoT": 67.32,
+        "ReAct": 2.33,
+        "AutoGen": 66.93,
+        "Multi-Agent Debate": 71.98,
+        "AgentGroupChat": 62.26
+      }
+    },
+    "math23k": {
+      "qwen2.5-72b": {
+        "Naive": 66.00,
+        "Naive-CoT": 89.00,
+        "ReAct": 76.00,
+        "AutoGen": 83.00,
+        "Multi-Agent Debate": 92.00,
+        "AgentGroupChat": 93.00
+      },
+      "llama3.1-70b": {
+        "Naive": 68.00,
+        "Naive-CoT": 87.00,
+        "ReAct": 64.00,
+        "AutoGen": 79.00,
+        "Multi-Agent Debate": 92.00,
+        "AgentGroupChat": 91.00
+      }
+    },
+    "mbpp_pass@1": {
+      "qwen2.5-72b": {
+        "Naive": 54.46,
+        "Naive-CoT": 51.30,
+        "ReAct": 57.02,
+        "AutoGen": 40.60,
+        "Multi-Agent Debate": 55.28,
+        "AgentGroupChat v2": 60.34
+      },
+      "llama3.1-70b": {
+        "Naive": 51.80,
+        "Naive-CoT": 53.04,
+        "ReAct": 55.88,
+        "AutoGen": 40.26,
+        "Multi-Agent Debate": 54.68,
+        "AgentGroupChat v2": 58.84
+      }
+    },
+    "mbpp_pass@3": {
+      "qwen2.5-72b": {
+        "Naive": 60.09,
+        "Naive-CoT": 61.52,
+        "ReAct": 65.34,
+        "AutoGen": 54.33,
+        "Multi-Agent Debate": 63.76,
+        "AgentGroupChat v2": 63.76
+      },
+      "llama3.1-70b": {
+        "Naive": 60.82,
+        "Naive-CoT": 60.51,
+        "ReAct": 62.39,
+        "AutoGen": 55.05,
+        "Multi-Agent Debate": 63.02,
+        "AgentGroupChat v2": 60.35
+      }
+    },
+    "mbpp_pass@5": {
+      "qwen2.5-72b": {
+        "Naive": 62.02,
+        "Naive-CoT": 65.08,
+        "ReAct": 68.50,
+        "AutoGen": 59.27,
+        "Multi-Agent Debate": 66.67,
+        "AgentGroupChat v2": 64.45
+      },
+      "llama3.1-70b": {
+        "Naive": 63.65,
+        "Naive-CoT": 62.75,
+        "ReAct": 64.84,
+        "AutoGen": 60.07,
+        "Multi-Agent Debate": 65.75,
+        "AgentGroupChat v2": 60.84
+      }
+    },
+    "humaneval_pass@1": {
+      "qwen2.5-72b": {
+        "Naive": 67.07,
+        "Naive-CoT": 62.86,
+        "ReAct": 75.54,
+        "AutoGen": 66.46,
+        "Multi-Agent Debate": 75.54,
+        "AgentGroupChat v2": 76.46
+      },
+      "llama3.1-70b": {
+        "Naive": 68.90,
+        "Naive-CoT": 71.58,
+        "ReAct": 78.53,
+        "AutoGen": 57.50,
+        "Multi-Agent Debate": 75.67,
+        "AgentGroupChat v2": 79.20
+      }
+    },
+    "humaneval_pass@3": {
+      "qwen2.5-72b": {
+        "Naive": 78.34,
+        "Naive-CoT": 78.60,
+        "ReAct": 84.39,
+        "AutoGen": 80.83,
+        "Multi-Agent Debate": 83.19,
+        "AgentGroupChat v2": 82.31
+      },
+      "llama3.1-70b": {
+        "Naive": 80.92,
+        "Naive-CoT": 81.23,
+        "ReAct": 85.71,
+        "AutoGen": 75.20,
+        "Multi-Agent Debate": 84.81,
+        "AgentGroupChat v2": 80.38
+      }
+    },
+    "humaneval_pass@5": {
+      "qwen2.5-72b": {
+        "Naive": 81.60,
+        "Naive-CoT": 82.43,
+        "ReAct": 86.84,
+        "AutoGen": 84.22,
+        "Multi-Agent Debate": 85.41,
+        "AgentGroupChat v2": 84.15
+      },
+      "llama3.1-70b": {
+        "Naive": 83.52,
+        "Naive-CoT": 83.56,
+        "ReAct": 87.66,
+        "AutoGen": 80.26,
+        "Multi-Agent Debate": 87.65,
+        "AgentGroupChat v2": 80.91
+      }
+    }
+  }
+  

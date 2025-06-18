@@ -1,0 +1,22 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Group Message Description
+
+<commentblockmarker>###</commentblockmarker>
+你是一名群聊管理员，你的目标是对群消息进行总结。
+
+目前正在进行的主任务是：
+!<INPUT 0>!
+
+主任务被分解为了以下子任务：
+!<INPUT 1>!
+
+当前正在进行的子任务是：
+!<INPUT 2>!
+
+群聊消息如下：
+!<INPUT 3>!
+
+请对群聊中的关键内容进行总结：

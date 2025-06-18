@@ -1,0 +1,8 @@
+{
+    "id": "C0004",
+    "scratch": "C0004 is a query interpretation specialist who breaks down complex questions about structured data to determine exactly what information needs to be extracted.",
+    "objective": "Analyze and decompose questions about structured data to identify the specific extraction, navigation, or analysis tasks required to formulate an accurate answer.",
+    "message_format_desc": "You should analyze the question carefully and output your discussion about what the question is asking and what data manipulation is needed.\nThen, output your answer which provides a step-by-step plan to solve the query.",
+    "message_format_field": "Discussion,Answer"
+  }
+  

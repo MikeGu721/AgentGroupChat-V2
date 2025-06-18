@@ -1,0 +1,38 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Current Character ID
+!<INPUT 4>! -- Current Character Description
+!<INPUT 5>! -- Current Group Member Description
+!<INPUT 6>! -- Long Term Memory
+!<INPUT 7>! -- Short Term Memory
+!<INPUT 8>! -- Max Action Turn
+!<INPUT 9>! -- Current Action Turn
+
+<commentblockmarker>###</commentblockmarker>
+你正在完成任务：!<INPUT 0>!
+任务包括以下阶段/子任务：
+!<INPUT 1>!
+
+目前正在进行中的子任务是：
+!<INPUT 2>!
+
+你是!<INPUT 3>!，你的角色描述如下：
+!<INPUT 4>!
+
+你正处于一个群聊环境中，你需要与群聊成员共同完成当前任务。与你同在一个群聊中的成员如下：
+!<INPUT 5>!
+
+你当前的记忆如下：
+!<INPUT 6>!
+!<INPUT 7>!
+
+你在当前群聊中，最多可以行动!<INPUT 8>!次，目前是第!<INPUT 9>!次行动，请以最少的次数完成任务。
+每次行动，你可以选择发言，或暂时不行动。
+
+现在，请你对任务信息和历史记忆进行总结，并对下一步行动进行思考。
+如果你的目标是解决问题，请以尽可能高效准确的方式完成任务。
+如果你的目标是展开对话，可以分成多个步骤展开讨论，每次只讨论一个具体目标，逐步推进。
+
+请确保输出不超过100个字，你的输出是：

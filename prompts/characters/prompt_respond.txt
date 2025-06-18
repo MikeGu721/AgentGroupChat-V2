@@ -1,0 +1,33 @@
+Variables:
+!<INPUT 0>! -- Main Task Description
+!<INPUT 1>! -- All Subtask Description
+!<INPUT 2>! -- Current Subtask Description
+!<INPUT 3>! -- Current Character ID
+!<INPUT 4>! -- Current Character Description
+!<INPUT 5>! -- Sender ID
+!<INPUT 6>! -- Chat Name
+!<INPUT 7>! -- Sender Description
+!<INPUT 8>! -- Chat History
+!<INPUT 9>! -- Output Format
+
+<commentblockmarker>###</commentblockmarker>
+你正在完成任务：!<INPUT 0>!
+任务包括以下阶段/子任务：
+!<INPUT 1>!
+
+目前正在进行中的子任务是：
+!<INPUT 2>!
+
+你正处于一个群聊环境中，与多名角色共同完成任务。
+你是!<INPUT 3>!，你的角色描述如下（ID: 描述）：
+!<INPUT 4>!
+
+角色!<INPUT 5>!向你发起了!<INPUT 6>!，他的角色描述如下：
+!<INPUT 7>!
+
+你们之间的历史聊天记录如下：
+!<INPUT 8>!
+
+请你决定是否要继续回复他，你可以对当前子任务发表自己的见解，或对他的见解展开讨论，也可以选择不回复。
+!<INPUT 9>!
+若不回复，请输出None，不要输出任何其他内容。

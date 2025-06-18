@@ -1,0 +1,18 @@
+Variables:  
+!<INPUT 0>! -- Problem  
+!<INPUT 1>! -- Main Group Messages  
+
+<commentblockmarker>###</commentblockmarker>  
+Given a structured data, a question, and a discussion about the parsing, transformation, or extraction of the data, you need to identify the final parsing result in the discussion.
+Please structure your result as follows. Your final answer should only return the final numerical answer without any units or explanations.
+Here is an example:  
+Data and question:### Question:\nHow many people who work in HI are taller than 179?\n\n### Reference:\nprimeKey,gender,age,name,height,weight,color\na,female,52,u,126,98,mulatto\nb,female,68,v,203,113,black\nc,female,14,w,125,172,black\n\nprimeKey,status,salary,company,location\na,retired,802043,Apple,WA\nb,employed,12660,NVIDIA,NY\nc,employed,557049,NVIDIA,TX\n\n
+Discussion: Identify people working in "HI" from the employment data. Check their heights from the personal attributes data. Count those taller than 179. However, no one works in "HI" in the given data.
+Output: 0
+Data:
+!<INPUT 0>!
+
+Discussion:
+!<INPUT 1>!
+
+Your output:
