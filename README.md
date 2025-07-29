@@ -170,6 +170,69 @@ We evaluated AgentGroupChat-V2's performance on multiple benchmark datasets:
 | ReAct | 78.53% | 55.88% |
 | **AgentGroupChat-V2** | **79.20%** | **58.84%** |
 
+## DIR
+
+```
+./
+├── evaluation
+│   ├── config.py                          # 配置文件
+│   ├── main.py                           # 主运行器
+│   ├── run_tasks.sh                      # Shell脚本
+│   ├── data_loader.py                    # 数据加载器
+│   ├── problem_parser.py                 # 问题解析器
+│   ├── solver.py                         # 通用求解器
+│   ├── code_evaluator.py                 # 代码评估器
+│   ├── character_manager.py              # 角色管理器
+│   ├── character_generator.py            # 角色生成器
+├── models/                           # 模型调用模块
+│   ├── __init__.py
+│   ├── unified_model_client.py       # 统一模型客户端
+│   ├── generator.py                  # 模型生成器（已修改为API式）
+│   ├── api_models.py                 # API模型调用（已修改）
+│   └── model_utils.py                # 模型调用工具函数
+├── environment/                      # 环境管理模块
+│   ├── __init__.py
+│   ├── managers/
+│   │   ├── __init__.py
+│   │   ├── event_manager.py          # 事件管理器
+│   │   ├── group_manager.py          # 群组管理器
+│   │   ├── task_manager.py           # 任务管理器
+│   │   └── actions.py                # 动作管理器（需修改模型调用）
+│   └── characters/
+│       ├── __init__.py
+│       └── character.py              # 角色类
+├── prompts/                          # Prompt模板
+│   └── managers/
+│       └── prompt_character_generation.txt  # 角色生成prompt
+├── tasks/                            # 任务相关文件
+│   ├── AIME/
+│   │   ├── characters/               # 预定义角色
+│   │   ├── dataset/                  # 数据集
+│   │   ├── logs_*/                   # 日志目录
+│   │   └── results_*/                # 结果目录
+│   ├── Finance/
+│   │   └── ...
+│   ├── GSM8K/
+│   │   └── ...
+│   ├── HellaSwag/
+│   │   └── ...
+│   ├── HumanEval/
+│   │   └── ...
+│   ├── MBPP/
+│   │   └── ...
+│   └── StructText/
+│       └── ...
+│── characters/                       # 生成的角色目录
+│   ├── gen_aime/                     # 自动生成的AIME角色
+│   ├── gen_finance/                  # 自动生成的Finance角色
+│   └── ...
+├── logger.py                         # 日志记录器
+├── utils.py                          # 工具函数
+├── config.py                         # 工具函数
+├── run_evaluation.sh                 # 工具函数
+
+```
+
 ## 🤝 Contributing
 
 We welcome community contributions! Please refer to the following ways:
